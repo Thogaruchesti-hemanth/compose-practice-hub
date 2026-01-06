@@ -64,21 +64,6 @@ Traditional tutorials often mix multiple concepts, making it hard to focus. This
    - Connect your device or start an emulator
    - Click the "Run" button or press `Shift + F10`
 
-## 📂 Repository Structure
-
-```
-compose-ui-playground/
-├── main (default branch)
-│   ├── README.md
-│   └── BRANCH_INDEX.md (List of all UI branches)
-│
-├── ui/login-screen
-├── ui/profile-card
-├── ui/animated-button
-├── ui/custom-dialog
-└── ... (more UI branches)
-```
-
 ## 🎯 Available UI Branches
 
 Each branch is prefixed with `ui/` for easy identification. Here's a sample of what you'll find:
@@ -123,18 +108,6 @@ Each branch is prefixed with `ui/` for easy identification. Here's a sample of w
 3. Learn advanced animation patterns
 4. Contribute your own UI implementations
 5. Help review and improve existing branches
-
-## 🎓 Learning Path
-
-```mermaid
-graph LR
-    A[Basic Components] --> B[Layouts & Styling]
-    B --> C[State Management]
-    C --> D[Animations]
-    D --> E[Gestures & Interactions]
-    E --> F[Complex UIs]
-    F --> G[Performance]
-```
 
 **Recommended Order:**
 1. Basic UI components (Text, Button, Image)

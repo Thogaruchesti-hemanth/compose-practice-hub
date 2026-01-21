@@ -48,6 +48,7 @@ fun BirthdayGreeting(name: String = "hemanth") {
                 fontSize = 80.sp,
                 fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.Medium,
+                lineHeight = 80.sp,
                 color = Color.Black
             )
             Text(

@@ -66,18 +66,18 @@ Traditional tutorials often mix multiple concepts, making it hard to focus. This
 
 ## 🎯 Available UI Branches
 
-Each branch is prefixed with `ui/` for easy identification. Here's a sample of what you'll find:
-
-| Branch Name | Difficulty | Description |
-|------------|-----------|-------------|
-| `ui/login-screen` | Beginner | Clean login UI with validation |
-| `ui/profile-card` | Beginner | Material Design profile card |
-| `ui/bottom-navigation` | Beginner | Bottom nav with multiple tabs |
-| `ui/animated-button` | Intermediate | Custom animated button effects |
-| `ui/swipe-to-delete` | Intermediate | Swipeable list items |
-| `ui/custom-dialog` | Intermediate | Beautiful custom dialogs |
-| `ui/collapsing-toolbar` | Advanced | Collapsing toolbar animation |
-| `ui/parallax-scroll` | Advanced | Parallax scrolling effect |
+Each branch is prefixed with the proper name  for easy identification. Here's a sample of what you'll find:
+```master
+├── feature/
+|   ├── reusable-onboarding-compose
+|   └── dictionary-app
+├── practice/
+|   ├── text-practice
+|   └── row-column
+├── google-compose/
+|   ├── birthday-card
+|   └── business-card
+```
 
 > 📝 See [BRANCH_INDEX.md](BRANCH_INDEX.md) for the complete list with screenshots and learning objectives.
 
@@ -89,7 +89,7 @@ Each branch is prefixed with `ui/` for easy identification. Here's a sample of w
 2. Read the branch's README for learning objectives
 3. Run the app and interact with the UI
 4. Study the code comments and structure
-5. Try modifying colors, sizes, and text
+5. Try modifying colours, sizes, and text
 6. Experiment and break things (that's learning!)
 
 ### For Intermediate Learners
@@ -104,7 +104,7 @@ Each branch is prefixed with `ui/` for easy identification. Here's a sample of w
 ### For Advanced Developers
 
 1. Use as a reference for complex UIs
-2. Study performance optimization techniques
+2. Study performance optimisation techniques
 3. Learn advanced animation patterns
 4. Contribute your own UI implementations
 5. Help review and improve existing branches
@@ -116,7 +116,7 @@ Each branch is prefixed with `ui/` for easy identification. Here's a sample of w
 4. Navigation patterns
 5. Animations and transitions
 6. Custom components
-7. Advanced patterns and optimization
+7. Advanced patterns and optimisation
 
 ## 🤝 Contributing
 
@@ -156,9 +156,9 @@ We welcome contributions! Here's how you can help:
 
 > Each branch contains its own screenshots showing the implemented UI
 
-| Login Screen | Profile Card | Animated Button |
-|-------------|--------------|-----------------|
-| ![Login](screenshots/login.png) | ![Profile](screenshots/profile.png) | ![Button](screenshots/button.png) |
+| Screen 6                                                      | Screen 7                                                      | Screen 8                                                      | Screen 9                                                      | Screen 10                                                      |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| <img src="screenshots/screen6.png" width="180" height="380"/> | <img src="screenshots/screen7.png" width="180" height="380"/> | <img src="screenshots/screen8.png" width="180" height="380"/> | <img src="screenshots/screen9.png" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
 
 ## 🛠️ Tech Stack
 

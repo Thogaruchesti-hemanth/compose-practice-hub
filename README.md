@@ -70,14 +70,14 @@ Each branch is prefixed with the proper name  for easy identification. Here's a 
 ```master
 ├── feature/
 |   ├── reusable-onboarding-compose
-|   ├── dictionary-app
 |   └── dice-roller-app
 ├── practice/
 |   ├── text-practice
 |   └── row-column
 ├── google-compose/
 |   ├── birthday-card
-|   └── business-card
+|   ├── business-card
+|   └── dictionary-app
 ```
 
 > 📝 See [BRANCH_INDEX.md](BRANCH_INDEX.md) for the complete list with screenshots and learning objectives.

@@ -193,8 +193,8 @@ We welcome contributions! Here's how you can help:
 
 ## 💬 Community & Support
 
-- **Issues**: Found a bug? [Open an issue](https://github.com/Thogaruchesti-hemanth/compose-ui-playground/issues)
-- **Discussions**: Questions? [Start a discussion](https://github.com/Thogaruchesti-hemanth/compose-ui-playground/discussions)
+- **Issues**: Found a bug? [Open an issue](https://github.com/Thogaruchesti-hemanth/compose-practice-hub/issues)
+- **Discussions**: Questions? [Start a discussion](https://github.com/Thogaruchesti-hemanth/compose-practice-hub/discussions)
 - **Instagram**: Follow [@Thogaruchesti-hemanth](https://www.instagram.com/indian_mobile_developer) for updates
 
 ## 📜 License

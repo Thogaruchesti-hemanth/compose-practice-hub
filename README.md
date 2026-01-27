@@ -70,7 +70,8 @@ Each branch is prefixed with the proper name  for easy identification. Here's a 
 ```master
 ├── feature/
 |   ├── reusable-onboarding-compose
-|   └── dictionary-app
+|   ├── dictionary-app
+|   └── animated-chat-application
 ├── practice/
 |   ├── text-practice
 |   └── row-column
@@ -166,9 +167,9 @@ We welcome contributions! Here's how you can help:
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
 | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/birthday-card"> <img src="https://github.com/user-attachments/assets/50da08ce-0d8d-4941-ad0c-888538072784" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/business-card"> <img src="https://github.com/user-attachments/assets/99ab4c8b-eccf-4c5c-8902-1217d7bffa61" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dice-roller-app"> <img src="https://github.com/user-attachments/assets/011277f8-33b8-4584-bf3b-d635a545070f" width="180" height="380"/> |  <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/lemonade-app">  <img src="https://github.com/user-attachments/assets/6dc31524-be7d-4ed2-8811-1a720c5e3795" width="180" height="380"/> </a> | <img src="screenshots/screen10.png" width="180" height="380"/> |
 
-| Basic onBoarding Screen                                                       | Dictionary App                                                      | Screen 8                                                       | Screen 9                                                      | Screen 10                                                      |
+| Basic onBoarding Screen                                                       | Dictionary App                                                      | Animated Chat UI                                                       | Screen 9                                                      | Screen 10                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"> <img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"> <img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/> | <a href=" "> <img src=" " width="180" height="380"/> | <img src="screenshots/screen9.png" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"> <img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"> <img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/animated-chat-application"> <img src="https://github.com/user-attachments/assets/de7f56af-aabf-4c03-8f69-cd49ddc848bd" width="180" height="380"/> | <img src="screenshots/screen9.png" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
 
 ## 🛠️ Tech Stack
 

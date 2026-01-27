@@ -374,6 +374,7 @@ fun HeaderTabsFinal(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
+                .padding(0.dp,10.dp,0.dp,60.dp)
                 .weight(1f)
                 .background(screenColor)
         ) {

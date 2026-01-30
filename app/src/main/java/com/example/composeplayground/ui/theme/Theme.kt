@@ -85,21 +85,14 @@ val DarkColorScheme = darkColorScheme(
 
 
 @Composable
-fun ComposeTestTheme(
-    darkTheme: Boolean  = isSystemInDarkTheme(),
-    content: @Composable() ()->Unit
-){
-    val colorScheme = if(darkTheme){
-        DarkColorScheme
-    }else {
-        lightColorScheme()
-    }
-
+fun TextFieldExplorerTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable () -> Unit
+) {
+    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = AppTypography ,
-        shapes = Shapes,
+        typography = AppTypography,
         content = content
     )
-
 }

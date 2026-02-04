@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -28,9 +29,9 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Spa
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -42,11 +43,11 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
+import androidx.compose.material3.windowsizeclass.WindowSizeClass
+import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
+import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -58,10 +59,12 @@ import androidx.compose.ui.unit.dp
 import com.example.composeplayground.ui.theme.MySootheTheme
 
 class MainActivity : ComponentActivity() {
+    @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MySootheApp()
+            val windowSizeClass = calculateWindowSizeClass(this)
+            MySootheApp(windowSizeClass)
         }
     }
 }
@@ -76,7 +79,7 @@ fun SearchBar(
         value = "",
         onValueChange = {},
         leadingIcon = {
-            Icon(Icons.Default.Search, contentDescription = null)
+            Icon(imageVector = Icons.Default.Search, contentDescription = null)
         },
         placeholder = {
             Text(
@@ -113,9 +116,8 @@ fun AlignYourBodyElement(
                 .clip(CircleShape)
         )
         Text(
-            stringResource(text),
-            modifier = modifier
-                .paddingFromBaseline(top = 24.dp, bottom = 8.dp)
+            text = stringResource(text),
+            modifier = modifier.paddingFromBaseline(top = 24.dp, bottom = 8.dp)
         )
     }
 }
@@ -130,19 +132,18 @@ fun FavoriteCollectionCard(
     // Implement composable here
     Surface(
         shape = MaterialTheme.shapes.small,
+        color = MaterialTheme.colorScheme.surfaceVariant,
         modifier = modifier
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            modifier = modifier
-                .width(220.dp)
+            modifier = modifier.width(220.dp)
         ) {
             Image(
                 painter = painterResource(drawable),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
-                modifier = modifier
-                    .size(56.dp)
+                modifier = modifier.size(56.dp)
             )
             Text(
                 stringResource(text),
@@ -181,16 +182,16 @@ fun FavoriteCollectionsGrid(
     // Implement composable here
     LazyHorizontalGrid(
         rows = GridCells.Fixed(2),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
         contentPadding = PaddingValues(horizontal = 16.dp),
-        modifier = modifier
-            .height(120.dp)
+        modifier = modifier.height(168.dp)
     ) {
         items(items = favoriteCollectionsData) { item ->
             FavoriteCollectionCard(
                 drawable = item.drawable,
-                text = item.text
+                text = item.text,
+                Modifier.height(80.dp)
             )
         }
     }
@@ -211,12 +212,8 @@ fun HomeSection(
             stringResource(title).uppercase(),
             style = MaterialTheme.typography.titleMedium,
             modifier = modifier
-                .paddingFromBaseline(
-                    top = 40.dp,
-                    bottom = 8.dp,
-                )
+                .paddingFromBaseline(top = 40.dp, bottom = 8.dp)
                 .padding(horizontal = 16.dp)
-
         )
         content()
     }
@@ -244,24 +241,36 @@ fun HomeScreen(modifier: Modifier = Modifier) {
 // Step: Bottom navigation - Material
 @Composable
 private fun SootheBottomNavigation(modifier: Modifier = Modifier) {
-    val items = listOf("Home", "Search", "Profile")
-    var selectedIndex by remember { mutableIntStateOf(0) }
-
-    NavigationBar(modifier = modifier) {
-        items.forEachIndexed { index, label ->
-            NavigationBarItem(
-                selected = selectedIndex == index,
-                onClick = { selectedIndex = index },
-                label = { Text(label) },
-                icon = {
-                    when (label) {
-                        "Home" -> Icon(Icons.Default.Home, contentDescription = null)
-                        "Search" -> Icon(Icons.Default.Search, contentDescription = null)
-                        else -> Icon(Icons.Default.Person, contentDescription = null)
-                    }
-                }
-            )
-        }
+    NavigationBar(
+        containerColor = MaterialTheme.colorScheme.surfaceVariant,
+        modifier = modifier
+    ) {
+        NavigationBarItem(
+            icon = {
+                Icon(
+                    imageVector = Icons.Default.Spa,
+                    contentDescription = null
+                )
+            },
+            label = {
+                Text(stringResource(R.string.bottom_navigation_home))
+            },
+            selected = true,
+            onClick = {}
+        )
+        NavigationBarItem(
+            onClick = {},
+            selected = false,
+            icon = {
+                Icon(
+                    imageVector = Icons.Default.AccountCircle,
+                    contentDescription = null
+                )
+            },
+            label = {
+                Text(stringResource(R.string.bottom_navigation_profile))
+            }
+        )
     }
 }
 
@@ -270,57 +279,77 @@ private fun SootheBottomNavigation(modifier: Modifier = Modifier) {
 @Composable
 fun MySootheAppPortrait() {
     // Implement composable here
-    Surface(
-        color = MaterialTheme.colorScheme.background
-    ) { }
-    HomeScreen()
+    MySootheTheme {
+        Scaffold (
+            bottomBar = {SootheBottomNavigation()}
+        ) { paddingValues -> HomeScreen(Modifier.padding(paddingValues))}
+    }
 }
 
 // Step: Bottom navigation - Material
 @Composable
 private fun SootheNavigationRail(modifier: Modifier = Modifier) {
-    val items = listOf("Home", "Search", "Profile")
-    var selectedIndex by remember { mutableIntStateOf(0) }
 
     NavigationRail(
-        modifier = modifier
+        modifier = modifier.padding(start = 8.dp, end = 8.dp),
+        containerColor = MaterialTheme.colorScheme.surfaceVariant
     ) {
-        items.forEachIndexed { index, label ->
+        Column(
+            modifier = Modifier.fillMaxHeight(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
             NavigationRailItem(
-                selected = selectedIndex == index,
-                onClick = { selectedIndex = index },
                 icon = {
-                    when (label) {
-                        "Home" -> Icon(Icons.Default.Home, contentDescription = null)
-                        "Search" -> Icon(Icons.Default.Search, contentDescription = null)
-                        else -> Icon(Icons.Default.Person, contentDescription = null)
-                    }
+                    Icon(
+                        imageVector = Icons.Default.Spa,
+                        contentDescription = null
+                    )
                 },
-                label = { Text(label) }
+                onClick = {},
+                selected = true,
+                label = {
+                    Text(stringResource(R.string.bottom_navigation_home))
+                }
+            )
+            Spacer(Modifier.height(8.dp))
+            NavigationRailItem(
+                icon = {
+                    Icon(
+                        imageVector = Icons.Default.AccountCircle,
+                        contentDescription = null
+                    )
+                },
+                label = {
+                    Text(stringResource(R.string.bottom_navigation_profile))
+                },
+                selected = false,
+                onClick = {}
             )
         }
     }
 }
 
-
-// Step: Landscape Mode
-@Composable
-fun MySootheAppLandscape(){
-    // Implement composable here
-    Surface {
-        HomeScreen()
-    }
-}
-
 // Step: MySoothe App
 @Composable
-fun MySootheApp() {
-    Scaffold(
-        bottomBar = { SootheBottomNavigation(Modifier) }
-    ) {innerPadding ->
-        HomeScreen(
-            modifier = Modifier.padding(innerPadding)
-        )
+fun MySootheApp(windowSize: WindowSizeClass) {
+   when(windowSize.widthSizeClass) {
+       WindowWidthSizeClass.Compact -> {
+           MySootheAppPortrait()
+       }
+       WindowWidthSizeClass.Expanded -> {
+           MySootheAppLandscape()
+       }
+   }
+}
+
+@Composable
+fun MySootheAppLandscape() {
+    MySootheTheme {
+        Row {
+            SootheNavigationRail()
+            HomeScreen()
+        }
     }
 }
 

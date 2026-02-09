@@ -71,10 +71,11 @@ Each branch is prefixed with the proper name  for easy identification. Here's a 
 ├── feature/
 |   ├── reusable-onboarding-compose
 |   ├── dictionary-app
-|   └── animated-chat-application
+|   ├── animated-chat-application
 ├── practice/
 |   ├── text-practice
-|   └── row-column
+|   ├── row-column
+|   └── codelab-android-compose
 ├── google-compose/
 |   ├── birthday-card
 |   ├── business-card
@@ -160,9 +161,9 @@ We welcome contributions! Here's how you can help:
 
 > Each branch contains its own screenshots showing the implemented UI
 
-| Text Pratice                                                       | Practice Column Arrangements                                                      | Column Row Pratice                                                       | Screen 9                                                      | Screen 10                                                      |
+| Text Pratice                                                       | Practice Column Arrangements                                                      | Column Row Pratice                                                       | Codelab Practice                                                      | Screen 10                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/text-practice"> <img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/261549a2-72e9-4c25-aa5f-f34edd95bbda" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/f8b0f410-bb70-44c7-85fa-8b35c544db68" width="180" height="380"/> | <img src="screenshots/screen9.png" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/text-practice"> <img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/261549a2-72e9-4c25-aa5f-f34edd95bbda" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/f8b0f410-bb70-44c7-85fa-8b35c544db68" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/codelab-android-compose"> <img src="https://github.com/user-attachments/assets/72c8077a-f1f4-4fb0-93e0-387c0f994eaa" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
 
 | Birthday Card                                                       | Business Card                                                      | Dice Roller App                                                       | Lemonade App                                                      | Basic Tip Calculaor                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -170,7 +171,7 @@ We welcome contributions! Here's how you can help:
 
 | Basic onBoarding Screen                                                       | Dictionary App                                                      | Animated Chat UI                                                       | Screen 9                                                      | Screen 10                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"> <img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"> <img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/animated-chat-application"> <img src="https://github.com/user-attachments/assets/de7f56af-aabf-4c03-8f69-cd49ddc848bd" width="180" height="380"/> | <img src="screenshots/screen9.png" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"> <img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"> <img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/animated-chat-application"> <img src="https://github.com/user-attachments/assets/de7f56af-aabf-4c03-8f69-cd49ddc848bd" width="180" height="380"/> | | <img src="screenshots/screen10.png" width="180" height="380"/> |
 
 ## 🛠️ Tech Stack
 

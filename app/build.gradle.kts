@@ -54,9 +54,11 @@ dependencies {
     implementation(libs.androidx.foundation.layout.android)
     implementation(libs.androidx.foundation.layout.android)
     implementation(libs.androidx.foundation.layout.android)
+    implementation(libs.androidx.compose.foundation)
     debugImplementation("androidx.compose.ui:ui-tooling")
 
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
 
     implementation("androidx.navigation:navigation-compose:2.7.7")
 

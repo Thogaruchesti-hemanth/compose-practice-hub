@@ -81,7 +81,8 @@ Each branch is prefixed with the proper name  for easy identification. Here's a 
 |   ├── business-card
 |   ├── dice-roller-app
 |   ├── lemonade-app
-|   └── basic-tip-calculator
+|   ├── basic-tip-calculator
+|   └── basic-layouts
 ```
 
 > 📝 See [BRANCH_INDEX.md](BRANCH_INDEX.md) for the complete list with screenshots and learning objectives.
@@ -168,6 +169,12 @@ We welcome contributions! Here's how you can help:
 | Birthday Card                                                       | Business Card                                                      | Dice Roller App                                                       | Lemonade App                                                      | Basic Tip Calculaor                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
 | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/birthday-card"> <img src="https://github.com/user-attachments/assets/50da08ce-0d8d-4941-ad0c-888538072784" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/business-card"> <img src="https://github.com/user-attachments/assets/99ab4c8b-eccf-4c5c-8902-1217d7bffa61" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dice-roller-app"> <img src="https://github.com/user-attachments/assets/011277f8-33b8-4584-bf3b-d635a545070f" width="180" height="380"/> |  <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/lemonade-app">  <img src="https://github.com/user-attachments/assets/6dc31524-be7d-4ed2-8811-1a720c5e3795" width="180" height="380"/> </a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-tip-calculator"> <img src="https://github.com/user-attachments/assets/917789a8-95ae-4166-b50d-d760f4dd6488" width="180" height="380"/> |
+
+
+| Basic Layout                                                       | Screen                                                      | Screen                                                       | Screen                                                      | Screen                                                      |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-layouts"> <img src="https://github.com/user-attachments/assets/b7b37aa6-77be-46b1-8e23-853eb0ba427b" width="180" height="380"/></a> |<a href="     "> <img src="    " width="180" height="380"/> | <a href="   "> <img src="   " width="180" height="380"/> |  <a href=" ">  <img src="  " width="180" height="380"/> </a> | <a href=" "> <img src="  " width="180" height="380"/> |
+
 
 | Basic onBoarding Screen                                                       | Dictionary App                                                      | Animated Chat UI                                                       | Screen 9                                                      | Screen 10                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |

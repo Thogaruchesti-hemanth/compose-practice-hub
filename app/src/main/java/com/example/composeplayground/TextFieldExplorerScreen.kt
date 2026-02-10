@@ -54,7 +54,6 @@ fun TextFieldExplorerScreen() {
             modifier = Modifier.fillMaxWidth(),
             singleLine = true
         )
-        TextField()
 
 
     }

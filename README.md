@@ -64,29 +64,26 @@ Traditional tutorials often mix multiple concepts, making it hard to focus. This
    - Connect your device or start an emulator
    - Click the "Run" button or press `Shift + F10`
 
+# Android Compose UI Repository
+
 ## 🎯 Available UI Branches
-
-Each branch is prefixed with the proper name  for easy identification. Here's a sample of what you'll find:
-```master
-├── feature/
-|   ├── reusable-onboarding-compose
-|   ├── dictionary-app
-|   ├── animated-chat-application
-├── practice/
-|   ├── text-practice
-|   ├── row-column
-|   └── codelab-android-compose
-├── google-compose/
-|   ├── birthday-card
-|   ├── business-card
-|   ├── dice-roller-app
-|   ├── lemonade-app
-|   ├── basic-tip-calculator
-|   ├── basic-layouts
-|   └── basic-sate-coblab 
+Each branch is prefixed with the proper category for easy identification. Here's a sample structure:
 ```
+master
+├── feature/
+│   ├── reusable-onboarding-compose
+│   ├── dictionary-app
+│   └── animated-chat-application
+├── practice/
+│   ├── text-practice
+│   └── row-column
+└── google-compose/
+    ├── birthday-card
+    ├── dice-roller-app
+    └── basic-tip-calculator
+```
+> 📝 **For the complete branch structure with screenshots and learning objectives, see [BRANCH_INDEX.md](BRANCH_INDEX.md)**
 
-> 📝 See [BRANCH_INDEX.md](BRANCH_INDEX.md) for the complete list with screenshots and learning objectives.
 
 ## 📚 How to Use This Repository
 

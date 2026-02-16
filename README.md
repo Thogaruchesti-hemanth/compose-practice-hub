@@ -1,219 +1,82 @@
-# 🎨 Compose UI Playground
+# Text Styling & Typography Practice
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-purple.svg)](https://kotlinlang.org)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Latest-brightgreen.svg)](https://developer.android.com/jetpack/compose)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+This branch demonstrates comprehensive text styling capabilities in Jetpack Compose through three practice screens that progressively build your understanding of text rendering, styling, and layout integration.
 
-> A hands-on Jetpack Compose learning repository where each branch contains a unique UI implementation. Practice, explore, and master Compose through practical examples - one branch at a time.
+## What's Inside
 
-## 📖 About This Project
+Three practice screens showcasing different aspects of text rendering and styling:
 
-This repository is designed to help Android developers learn Jetpack Compose through **practical, real-world UI implementations**. Each branch focuses on a specific UI pattern, component, or concept, making it easy to:
+- **TextPracticeScreenOne**: Font weights, spacing, decorations, baseline alignment, annotated strings, overflow handling
+- **TextPracticeScreenTwo**: Similar concepts with variations in letter spacing and text decoration combinations
+- **TextPracticeScreenThree**: Material3 typography system, text alignment, colour emphasis, layout integration
 
-- 🎯 Focus on one concept at a time
-- 📱 See working implementations
-- 🔄 Compare different approaches
-- 💡 Learn best practices
-- 🚀 Build production-ready UIs
+## Compose Concepts Covered
 
-## 🌟 Why Branch-Based Learning?
+### 1. Text Composable
+The foundational building block for displaying text in Jetpack Compose. Every screen demonstrates how different parameters transform basic text into styled content.
 
-Traditional tutorials often mix multiple concepts, making it hard to focus. This repository uses a **branch-per-concept** approach:
+### 2. Typography System
+Integration with Material3's type scale using `AppTypography` to access predefined text styles (`displayMedium`, `headlineMedium`, `bodySmall`). Maintains visual hierarchy and consistency across your app.
 
-- **Isolated Learning**: Each branch contains one complete UI example
-- **No Clutter**: Focus on what matters without distractions
-- **Easy Navigation**: Switch branches to explore different UIs
-- **Version Control**: Track your progress and experiments
-- **Reusable Code**: Copy and adapt what you need
+### 3. Font Weight
+Complete spectrum of text thickness from `FontWeight.Thin` to `FontWeight.Black`. Includes: Thin, Light, Normal, Medium, SemiBold, Bold, ExtraBold, and Black.
 
-## 🚀 Getting Started
+### 4. Letter Spacing
+Character spacing control using scalable pixel (`.sp`) units. Demonstrates both expanded spacing (positive values) and condensed spacing (negative values).
 
-### Prerequisites
+### 5. Text Decoration
+Visual embellishments including underlines, strikethroughs, and combined decorations using `TextDecoration.combine()`. Useful for pricing, emphasis, and deprecated content.
 
-- Android Studio Hedgehog (2023.1.1) or later
-- JDK 17 or higher
-- Basic knowledge of Kotlin
-- Familiarity with Android development
+### 6. AnnotatedString
+Advanced inline text styling using `buildAnnotatedString` and `withStyle`. Enables multiple visual styles within a single text block without breaking it into separate composables.
 
-### Installation
+### 7. BaselineShift
+Vertical text alignment technique for positioning text of different sizes on the same baseline. Essential for subscript, superscript, and mixed-size text arrangements.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/compose-ui-playground.git
-   cd compose-ui-playground
-   ```
+### 8. Text Alignment
+Horizontal positioning control with `TextAlign`: Start (left), Center, End (right). Works in conjunction with `fillMaxWidth()` modifier.
 
-2. **View available branches**
-   ```bash
-   git branch -a
-   ```
+### 9. Overflow Handling
+Content truncation strategies using `maxLines` and `TextOverflow.Ellipsis`. Prevents layout breaking when text exceeds available space.
 
-3. **Switch to a specific UI branch**
-   ```bash
-   git checkout branch-name
-   ```
+### 10. SpanStyle
+Granular styling for text segments within AnnotatedStrings. Supports color, fontWeight, fontSize, background, fontStyle, and fontFamily properties.
 
-4. **Open in Android Studio**
-   - Open Android Studio
-   - Select "Open an Existing Project"
-   - Navigate to the cloned directory
-   - Wait for Gradle sync to complete
+### 11. Font Families
+Typography variety using system fonts: `FontFamily.Default`, `FontFamily.Monospace`, and `FontFamily.Serif`. Creates visual distinction for different content types.
 
-5. **Run the app**
-   - Connect your device or start an emulator
-   - Click the "Run" button or press `Shift + F10`
+### 12. Font Style
+Typographic emphasis using `FontStyle.Italic` and `FontStyle.Normal`. Commonly used for quotations, technical terms, or subtle emphasis.
 
-## 🎯 Available UI Branches
+### 13. Layout Integration
+Text composables working within layout containers (`Column`, `Row`) with spacing controls (`Spacer`, `Arrangement.SpaceBetween`) and size modifiers (`fillMaxWidth()`, `padding()`).
 
-Each branch is prefixed with `ui/` for easy identification. Here's a sample of what you'll find:
+### 14. Color Application
+Text coloring at both composable level (entire text) and span level (inline segments). Demonstrates semantic colors for states like error, subtle, and emphasis.
 
-| Branch Name | Difficulty | Description |
-|------------|-----------|-------------|
-| `ui/login-screen` | Beginner | Clean login UI with validation |
-| `ui/profile-card` | Beginner | Material Design profile card |
-| `ui/bottom-navigation` | Beginner | Bottom nav with multiple tabs |
-| `ui/animated-button` | Intermediate | Custom animated button effects |
-| `ui/swipe-to-delete` | Intermediate | Swipeable list items |
-| `ui/custom-dialog` | Intermediate | Beautiful custom dialogs |
-| `ui/collapsing-toolbar` | Advanced | Collapsing toolbar animation |
-| `ui/parallax-scroll` | Advanced | Parallax scrolling effect |
+### 15. Custom Components
+Reusable text components (`TitleText`, `AddSpace`) that encapsulate common patterns, promoting consistency and maintainability across screens.
 
-> 📝 See [BRANCH_INDEX.md](BRANCH_INDEX.md) for the complete list with screenshots and learning objectives.
+## Learning Path
 
-## 📚 How to Use This Repository
+This branch follows a progressive learning structure:
 
-### For Beginners
+**Screens One & Two** focus on fundamental text properties and inline styling techniques. You'll understand how individual properties affect text appearance and how to combine multiple styles within single text blocks.
 
-1. Start with branches marked as **Beginner**
-2. Read the branch's README for learning objectives
-3. Run the app and interact with the UI
-4. Study the code comments and structure
-5. Try modifying colors, sizes, and text
-6. Experiment and break things (that's learning!)
+**Screen Three** demonstrates real-world application by integrating text with Material3's design system, showing how typography choices create visual hierarchy and improve user experience.
 
-### For Intermediate Learners
+## Practical Applications
 
-1. Pick a branch that interests you
-2. Understand the overall architecture
-3. Study state management patterns
-4. Learn animation and gesture handling
-5. Try implementing variations
-6. Combine concepts from multiple branches
+These concepts form the foundation for building:
 
-### For Advanced Developers
+- Product cards with mixed typography and pricing
+- Form labels with validation messages
+- Rich text content with inline formatting
+- Data displays with aligned label-value pairs
+- Error states and status indicators
+- Hierarchical content structures
 
-1. Use as a reference for complex UIs
-2. Study performance optimization techniques
-3. Learn advanced animation patterns
-4. Contribute your own UI implementations
-5. Help review and improve existing branches
+## Key Takeaways
 
-**Recommended Order:**
-1. Basic UI components (Text, Button, Image)
-2. Layout fundamentals (Column, Row, Box)
-3. State and recomposition
-4. Navigation patterns
-5. Animations and transitions
-6. Custom components
-7. Advanced patterns and optimization
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Adding a New UI Branch
-
-1. **Fork the repository**
-2. **Create a new branch** from `main`
-   ```bash
-   git checkout main
-   git pull origin main
-   git checkout -b ui/your-ui-name
-   ```
-3. **Implement your UI** with:
-   - Clean, readable code
-   - Comments explaining key concepts
-   - A dedicated README in the branch
-   - Screenshots or GIFs
-4. **Submit a Pull Request** with:
-   - Clear description of the UI
-   - Learning objectives
-   - Difficulty level
-   - Screenshots
-
-### Contribution Guidelines
-
-- ✅ One UI concept per branch
-- ✅ Follow Material Design principles
-- ✅ Include comprehensive comments
-- ✅ Add a README with screenshots
-- ✅ Test on multiple screen sizes
-- ✅ Use meaningful variable names
-- ✅ Follow Kotlin coding conventions
-
-## 📸 Screenshots
-
-> Each branch contains its own screenshots showing the implemented UI
-
-| Login Screen | Profile Card | Animated Button |
-|-------------|--------------|-----------------|
-| ![Login](screenshots/login.png) | ![Profile](screenshots/profile.png) | ![Button](screenshots/button.png) |
-
-## 🛠️ Tech Stack
-
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM (where applicable)
-- **State Management**: Compose State, ViewModel
-- **Navigation**: Compose Navigation
-- **Design System**: Material Design 3
-- **Build System**: Gradle with Kotlin DSL
-
-## 📖 Resources
-
-### Official Documentation
-- [Jetpack Compose Docs](https://developer.android.com/jetpack/compose)
-- [Compose Pathway](https://developer.android.com/courses/pathways/compose)
-- [Material Design 3](https://m3.material.io/)
-
-### Community Resources
-- [Compose Academy](https://compose.academy/)
-- [Android Developers YouTube](https://www.youtube.com/c/AndroidDevelopers)
-- [r/androiddev](https://www.reddit.com/r/androiddev/)
-
-## 💬 Community & Support
-
-- **Issues**: Found a bug? [Open an issue](https://github.com/Thogaruchesti-hemanth/compose-ui-playground/issues)
-- **Discussions**: Questions? [Start a discussion](https://github.com/Thogaruchesti-hemanth/compose-ui-playground/discussions)
-- **Instagram**: Follow [@Thogaruchesti-hemanth](https://www.instagram.com/indian_mobile_developer) for updates
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⭐ Show Your Support
-
-If this repository helped you learn Compose, please:
-- ⭐ Star this repository
-- 🐦 Share it on social media
-- 🤝 Contribute your own UI implementations
-- 📝 Write about your learning experience
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who help make this resource better
-- Inspired by the amazing Android developer community
-- Built with ❤️ for learners worldwide
-
----
-
-<div align="center">
-
-**Happy Composing! 🚀**
-
-Made with ❤️ by [Thogaruchesti Hemanth](https://github.com/Thogaruchesti-hemanth)
-
-[⬆ Back to Top](#-compose-ui-playground)
-
-</div>
+Text rendering in Jetpack Compose offers fine-grained control at every level. You can style entire text blocks with direct parameters or create sophisticated inline formatting with AnnotatedString. The Material3 typography system provides consistency out of the box, while individual properties allow unlimited customization. Mastering these fundamentals enables you to implement any text-based design specification with precision and confidence.
+```

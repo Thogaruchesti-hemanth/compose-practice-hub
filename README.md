@@ -79,4 +79,3 @@ These concepts form the foundation for building:
 ## Key Takeaways
 
 Text rendering in Jetpack Compose offers fine-grained control at every level. You can style entire text blocks with direct parameters or create sophisticated inline formatting with AnnotatedString. The Material3 typography system provides consistency out of the box, while individual properties allow unlimited customization. Mastering these fundamentals enables you to implement any text-based design specification with precision and confidence.
-```

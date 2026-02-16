@@ -166,6 +166,7 @@ If this repository helped you learn Compose, please:
 - 🐦 Share it on social media
 - 🤝 Contribute your own UI implementations
 - 📝 Write about your learning experience
+- 📣 If you share your work, I’d really appreciate a mention or tag — it helps grow the community and supports my work!
 
 ## 🙏 Acknowledgments
 

@@ -26,4 +26,4 @@ Add corresponding strings and dimensions to `res/values/strings.xml` and `res/va
 
 ## Reference
 
-This project is inspired by the [Google Developer Training](https://github.com/google-developer-training/basic-android-kotlin-compose-training-lemonade) repo by Google.
+This project is inspired by the [Google Developer Training](https://github.com/google-developer-training/basic-android-kotlin-compose-training-lemonade) course by Google.

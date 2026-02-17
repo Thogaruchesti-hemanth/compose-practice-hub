@@ -5,7 +5,7 @@ A Jetpack Compose sample that rolls a dice and displays the result as an image o
 ## Features
 
 - State-driven UI using `remember` and `mutableStateOf`
-- Dice face image swapped via a `when` expression on state
+- Dice face image swapped via a `when` expression on the state
 - Button click triggers `(1..6).random()` to update state and recompose
 - Centered layout using `wrapContentSize(Alignment.Center)`
 
@@ -24,4 +24,4 @@ Add six dice face images to `res/drawable/` named `dice_1` through `dice_6`, and
 
 ## Reference
 
-This project is inspired by the [Android Basics with Compose](https://github.com/google-developer-training/basic-android-kotlin-compose-training-dice-roller) course by Google.
+This project is inspired by the [Google Developer Training](https://github.com/google-developer-training/basic-android-kotlin-compose-training-dice-roller) repo by Google.

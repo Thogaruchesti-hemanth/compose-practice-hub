@@ -24,4 +24,4 @@ Add six dice face images to `res/drawable/` named `dice_1` through `dice_6`, and
 
 ## Reference
 
-This project is inspired by the [Google Developer Training](https://github.com/google-developer-training/basic-android-kotlin-compose-training-dice-roller) repo by Google.
+This project is inspired by the [Google Developer Training](https://github.com/google-developer-training/basic-android-kotlin-compose-training-dice-roller) course by Google.

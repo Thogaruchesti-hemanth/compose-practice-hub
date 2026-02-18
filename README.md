@@ -107,6 +107,13 @@ Read More..
 | ⭐ Beginner | ⭐⭐ Beginner+ | ⭐⭐ Intermediate | ⭐⭐ Intermediate | ⭐⭐ Intermediate |
 | ⏱️ 45–60 min | ⏱️ 1–1.5 hrs | ⏱️ 1.5–2 hrs | ⏱️ 1–1.5 hrs | ⏱️ 1.5–2 hrs |
 
+| Art Space App | Preview | Preview | Preview | Preview |
+|:---:|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/art-space-app"><img src="https://github.com/user-attachments/assets/6da6fed8-ca02-468d-8b8d-895c676f48f7" width="180" height="380"/></a> | <a href="  "><img src="  " width="180" height="380"/></a> | <a href="  "><img src="  " width="180" height="380"/></a> | <a href="  "><img src=" " width="180" height="380"/></a> | <a href="  "><img src="  " width="180" height="380"/></a> |
+|`google-compose/art-space-app`  |  |  |  |  |
+| ⭐⭐ Beginner+ |  | |  |  |
+| ⏱️ 1.5–2 hrs |  |  |  |  |
+
 ---
 
 ### 🔵 Codelabs

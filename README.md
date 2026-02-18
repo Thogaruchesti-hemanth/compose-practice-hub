@@ -87,23 +87,47 @@ Read More..
 
 > Each branch contains its own screenshots showing the implemented UI
 
-| Text Pratice                                                       | Practice Column Arrangements                                                      | Column Row Pratice                                                       | Codelab Practice                                                      | Screen 10                                                      |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/text-practice"> <img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/261549a2-72e9-4c25-aa5f-f34edd95bbda" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"> <img src="https://github.com/user-attachments/assets/f8b0f410-bb70-44c7-85fa-8b35c544db68" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/codelab-android-compose"> <img src="https://github.com/user-attachments/assets/72c8077a-f1f4-4fb0-93e0-387c0f994eaa" width="180" height="380"/> | <img src="screenshots/screen10.png" width="180" height="380"/> |
+### 🌱 Practice
 
-| Birthday Card                                                       | Business Card                                                      | Dice Roller App                                                       | Lemonade App                                                      | Basic Tip Calculaor                                                      |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/birthday-card"> <img src="https://github.com/user-attachments/assets/50da08ce-0d8d-4941-ad0c-888538072784" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/business-card"> <img src="https://github.com/user-attachments/assets/99ab4c8b-eccf-4c5c-8902-1217d7bffa61" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dice-roller-app"> <img src="https://github.com/user-attachments/assets/011277f8-33b8-4584-bf3b-d635a545070f" width="180" height="380"/> |  <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/lemonade-app">  <img src="https://github.com/user-attachments/assets/6dc31524-be7d-4ed2-8811-1a720c5e3795" width="180" height="380"/> </a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-tip-calculator"> <img src="https://github.com/user-attachments/assets/917789a8-95ae-4166-b50d-d760f4dd6488" width="180" height="380"/> |
+| Text Practice | Column Arrangements | Row Column Practice | Codelab Practice | Preview |
+|:---:|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/text-practice"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"><img src="https://github.com/user-attachments/assets/261549a2-72e9-4c25-aa5f-f34edd95bbda" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/practice/row-column"><img src="https://github.com/user-attachments/assets/f8b0f410-bb70-44c7-85fa-8b35c544db68" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/codelab-android-compose"><img src="https://github.com/user-attachments/assets/72c8077a-f1f4-4fb0-93e0-387c0f994eaa" width="180" height="380"/></a> | |
+| `practice/text-practice` | `practice/row-column` | `practice/row-column` | `feature/codelab-android-compose` | |
+| ⭐ Beginner | ⭐ Beginner | ⭐ Beginner | ⭐ Beginner | |
+| ⏱️ 15–20 min | ⏱️ 30–45 min | ⏱️ 30–45 min | ⏱️ 30–45 min | |
 
+---
 
-| Basic Layout                                                       | Basic State                                                      | Screen                                                       | Screen                                                      | Screen                                                      |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-layouts"> <img src="https://github.com/user-attachments/assets/b7b37aa6-77be-46b1-8e23-853eb0ba427b" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-state-codelab"> <img src="https://github.com/user-attachments/assets/8af41228-b07a-4723-a94e-4dfff238fbd8" width="180" height="380"/> | <a href="   "> <img src="   " width="180" height="380"/> |  <a href=" ">  <img src="  " width="180" height="380"/> </a> | <a href=" "> <img src="  " width="180" height="380"/> |
+### 🟢 Google Compose
 
+| Birthday Card | Business Card | Dice Roller App | Lemonade App | Basic Tip Calculator |
+|:---:|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/birthday-card"><img src="https://github.com/user-attachments/assets/50da08ce-0d8d-4941-ad0c-888538072784" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/business-card"><img src="https://github.com/user-attachments/assets/99ab4c8b-eccf-4c5c-8902-1217d7bffa61" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dice-roller-app"><img src="https://github.com/user-attachments/assets/011277f8-33b8-4584-bf3b-d635a545070f" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/lemonade-app"><img src="https://github.com/user-attachments/assets/6dc31524-be7d-4ed2-8811-1a720c5e3795" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-tip-calculator"><img src="https://github.com/user-attachments/assets/917789a8-95ae-4166-b50d-d760f4dd6488" width="180" height="380"/></a> |
+| `google-compose/birthday-card` | `google-compose/business-card` | `google-compose/dice-roller-app` | `google-compose/lemonade-app` | `google-compose/basic-tip-calculator` |
+| ⭐ Beginner | ⭐⭐ Beginner+ | ⭐⭐ Intermediate | ⭐⭐ Intermediate | ⭐⭐ Intermediate |
+| ⏱️ 45–60 min | ⏱️ 1–1.5 hrs | ⏱️ 1.5–2 hrs | ⏱️ 1–1.5 hrs | ⏱️ 1.5–2 hrs |
 
-| Basic onBoarding Screen                                                       | Dictionary App                                                      | Animated Chat UI                                                       | Screen 9                                                      | Screen 10                                                      |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"> <img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> |<a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"> <img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/animated-chat-application"> <img src="https://github.com/user-attachments/assets/de7f56af-aabf-4c03-8f69-cd49ddc848bd" width="180" height="380"/> | | <img src="screenshots/screen10.png" width="180" height="380"/> |
+---
+
+### 🔵 Codelabs
+
+| Basic Layouts | Basic State | Preview | Preview | Preview |
+|:---:|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-layouts"><img src="https://github.com/user-attachments/assets/b7b37aa6-77be-46b1-8e23-853eb0ba427b" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-state-codelab"><img src="https://github.com/user-attachments/assets/8af41228-b07a-4723-a94e-4dfff238fbd8" width="180" height="380"/></a> | | | |
+| `google-compose/basic-layouts` | `google-compose/basic-state-codelab` | | | |
+| ⭐⭐ Intermediate | ⭐⭐ Intermediate | | | |
+| ⏱️ 1.5–2 hrs | ⏱️ 1.5–2 hrs | | | |
+
+---
+
+### 🚀 Feature
+
+| Onboarding Screen | Dictionary App | Animated Chat UI | Preview | Preview |
+|:---:|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/reusable-onboarding-compose-"><img src="https://github.com/user-attachments/assets/5a32d748-5a05-4ed2-bafd-9d1619212560" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/dictionary-app"><img src="https://github.com/user-attachments/assets/0dd43785-841f-48d0-b932-4e52983b1c5d" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/feature/animated-chat-application"><img src="https://github.com/user-attachments/assets/de7f56af-aabf-4c03-8f69-cd49ddc848bd" width="180" height="380"/></a> | | |
+| `feature/reusable-onboarding-compose` | `feature/dictionary-app` | `feature/animated-chat-application` | | |
+| ⭐⭐⭐ Intermediate+ | ⭐⭐⭐⭐ Advanced | ⭐⭐⭐⭐ Advanced | | |
+| ⏱️ 2–3 hrs | ⏱️ 4–6 hrs | ⏱️ 4–6 hrs | | |
 
 ## 🛠️ Tech Stack
 

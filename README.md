@@ -121,7 +121,7 @@ Read More..
 | Basic Layouts | Basic State | Preview | Preview | Preview |
 |:---:|:---:|:---:|:---:|:---:|
 | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-layouts"><img src="https://github.com/user-attachments/assets/b7b37aa6-77be-46b1-8e23-853eb0ba427b" width="180" height="380"/></a> | <a href="https://github.com/Thogaruchesti-hemanth/compose-practice-hub/tree/google-compose/basic-state-codelab"><img src="https://github.com/user-attachments/assets/8af41228-b07a-4723-a94e-4dfff238fbd8" width="180" height="380"/></a> | | | |
-| `google-compose/basic-layouts` | `google-compose/basic-state-codelab` | | | |
+| `codelabs/basic-layouts` | `codelabs/basic-state` | | | |
 | ⭐⭐ Intermediate | ⭐⭐ Intermediate | | | |
 | ⏱️ 1.5–2 hrs | ⏱️ 1.5–2 hrs | | | |
 

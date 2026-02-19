@@ -18,7 +18,10 @@ master
 |   ├── birthday-card                       ⭐     Beginner
 |   ├── dice-roller-app                     ⭐⭐    Beginner+
 |   ├── basic-tip-calculator                ⭐⭐    Beginner+
-|   └── art-space-app                       ⭐⭐    Beginner+ 
+|   └── art-space-app                       ⭐⭐    Beginner+
+└── codelabs/
+|   ├── basic-layouts                       ⭐⭐⭐  Intermediate
+|   └── basic-state                         ⭐⭐⭐  Intermediate
 ```
 
 
@@ -38,3 +41,8 @@ master
 - **reusable-onboarding-compose** `⭐⭐⭐ Intermediate` — HorizontalPager, LaunchedEffect, state hoisting, reusable components, navigation, animated transitions
 - **dictionary-app** `⭐⭐⭐⭐ Advanced` — MVVM, Repository pattern, Hilt/Koin DI, Retrofit/Ktor, Coroutines, LazyColumn, error & loading states
 - **animated-chat-application** `⭐⭐⭐⭐ Advanced` — Complex animations, real-time UI updates, chat architecture, custom composables
+
+
+### codelabs/ - 
+- **basic-layouts** `⭐⭐⭐ Intermediate` — MySoothe wellness app with adaptive layouts using WindowSizeClass, LazyRow, LazyHorizontalGrid, NavigationBar vs NavigationRail for portrait/landscape, Scaffold, slot APIs with content: @Composable () -> Unit, paddingFromBaseline, circular image clipping with CircleShape
+- **basic-state** `⭐⭐⭐ Intermediate` — Wellness tracker app with ViewModel integration via viewModel(), state hoisting pattern (stateless composables driven by parent state), rememberSaveable for config change survival, toMutableStateList() for observable list mutations, LazyColumn with item removal, separating UI state from business logic

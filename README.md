@@ -1,4 +1,4 @@
-# 🎨 Compose UI Playground
+# 🎨 Compose Practice Hub
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.3+-purple.svg)](https://kotlinlang.org)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Latest-brightgreen.svg)](https://developer.android.com/jetpack/compose)
